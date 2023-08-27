@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grid Game Guide</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Grid Game!</h1>
+        <p>
+            The aim is simple. Place points on the grid without repeating rows, columns, or slopes between points.
+        </p>
+
+        <!-- The grid canvas -->
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+        <button class="start-button">Start the Game</button>
+        <button class="reset-button">Reset</button>
+        <p class="message"></p>
+    </div>
+
+    <!-- Including the script at the bottom ensures the DOM is ready when script runs -->
+    <script src="script.js"></script>
+</body>
+</html>
